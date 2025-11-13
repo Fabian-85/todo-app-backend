@@ -4,7 +4,8 @@ from django.db import models
 status_choices = [
     ('pending', 'Pending'),
     ('in_progress', 'In Progress'),
-    ('completed', 'Completed'),
+    ('review','Review'),
+    ('completed', 'Completed')
 ]
 
 
